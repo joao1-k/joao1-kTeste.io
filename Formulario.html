@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Formulario.css">
+<link rel="stylesheet" href="responsividade.css">
+<link rel="icon" href="login.svg">
+    <link rel="stylesheet" href="icon.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+<header class="header">
+          <a href="index.html" class="logo"><img src="icon.svg" alt=""></a>
+
+   <div>
+  
+    <a href="pacientescopy.html" class="pacientes">Pacientes</a>
+</div>
+</header>
+<div class="mestre">
+<div class="form">
+<div class="master">
+<div class="tittle" >
+            <h1>Cadastro</h1>
+</div>
+<form action="">
+<div id="registerform">
+    <form class="register-form" action="">
+
+<div class="full-box">
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="name" placeholder="Nome completo" data-required data-min-length="3" data-max-length="16" >
+</div>
+<div class="full-box">
+            <label for="number">CPF:</label>
+    <input type="number" name="CPF" id="CPF" placeholder="Digite o CPF" >
+</div>
+<div class="full-box">
+            <label for="date">Data de Nasc:</label>
+            <input type="date" name="date" id="date"> 
+</div>
+
+<div class="full-box">
+            <label for="number">Peso:</label>
+            <input type="number" name="peso" id="peso" placeholder="Digite o peso"  >
+</div>
+<div class="full-box">
+            <label for="number">Altura:</label>
+            <input type="number" name="number" id="number" placeholder="Digite a altura" >
+</div>
+<div class="msg" style="color: rgb(255, 0, 0);"></div>
+
+<div class="full-box">
+            <label for="text" class="full-box">Selecione o Estado:</label>
+            <select name="Estado" id="Estado"  value="Estado" class="full-box">
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+</div>
+<div class="full-box">
+    <label for="text" class="full-box">Selecione o Paciente/enfer. :</label>
+    <select name="cliente" id="cliente"  value="cliente" class="full-box">
+        <option value="">Selecione</option>
+        <option value="">Paciente</option>
+    </select>
+</div>
+</div>
+<br>
+<div class="box">
+            <input id="btn-submit" type="submit" value="Cadastrar">
+</div>
+    </form>
+</div>
+<div class="master1">
+    <div class="tittle">
+        <h1 >
+            Pacientes cadastrados
+        </h1>
+    </div>
+    <div class="list">
+        <ul>
+            <li>Nome</li>
+            <li>CPF</li>
+            <li>Data de Nasc.</li>
+            <li>Peso</li>
+            <li>Altura</li>
+            <li>Estado</li>
+        </ul>
+    </div>
+    
+    <hr width = “2” size = “100” > 
+</div>
+</div> 
+</div>
+
+<script src="validator.js"></script>
+</body>
+</html>

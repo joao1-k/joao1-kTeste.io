@@ -1,0 +1,145 @@
+/* HEADER */
+
+.header  { 
+  align-items:center;
+  justify-content: space-between;  
+  display: flex;
+  color: rgba(0, 5, 46, 1); 
+  position: relative;
+}
+
+.header .pacientes{
+  margin-right: 60px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* formulario */
+ .master{
+  background: rgb(0,0,0,.5);
+top: 35px;
+position: relative;
+background: rgb(0, 0, 0, 0.5s);
+box-sizing: border-box;
+border-radius: 10px;
+width: 400px;
+padding: 20px;
+box-shadow: 0 15px 25px rgb(0 ,0 ,0 ,.6);
+font-family: 'Poppins', sans-serif;
+color: white;
+margin-left: 550px;
+}
+.tittle{
+    color: white;
+    text-align: center;
+}
+.master .full-box{
+  position: relative ;
+}
+
+.master .full-box input{
+  width: 100%;
+}
+
+#registerform .full-box input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.master .box input{
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+border: none;
+border-bottom: 1px solid #fff;
+
+}
+.master .box input:hover{
+  background: #631676;
+  border-radius: 10px;
+  background: linear-gradient(#631676);
+  box-shadow: 0 0 5px #631676,
+              0 0 25px #631676,
+              0 0 50px #631676,
+              0 0 100px #631676;
+}
+
+
+/* Formulario GRID  */
+
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.master{
+  grid-column: 1;
+}
+
+
+/* Clientes cadastrados */
+
+.master1{
+  background: rgb(0,0,0,.5);
+top: 35px;
+position: relative;
+right: 50px;
+background: rgb(0, 0, 0, 0.5s);
+box-sizing: border-box;
+border-radius: 10px;
+width: 90%;
+padding: 30px;
+box-shadow: 0 15px 25px rgb(0 ,0 ,0 ,.6);
+font-family: 'Poppins', sans-serif;
+color: white;
+margin-left: 60px;
+grid-column: 2;
+
+}
+
+
+
+.master1 ul{
+  list-style: none;
+ text-decoration: none;
+ position: relative;
+ display: flex;
+ text-align: center;
+ position: relative;
+
+}
+
+.form .master1 ul li{
+  top: 15px;
+  margin: 0 auto;
+  position: relative;
+margin-left: 20px;
+font-size: 20px;
+text-align: center;
+align-items: center;
+
+}
+
+/* Classe Mestre*/
+
+.mestre{
+
+  position: relative;
+right: 12.2%;
+}

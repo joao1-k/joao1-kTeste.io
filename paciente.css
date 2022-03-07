@@ -1,0 +1,71 @@
+/* HEADER */
+
+.header  { 
+    align-items:center;
+    justify-content: space-between;  
+    display: flex;
+    color: rgba(0, 5, 46, 1); 
+    position: relative;
+  }
+  
+  .header .pacientes{
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Cadastros Pacientes */
+  
+
+.master1{
+    background: rgb(0,0,0,.5);
+  top: 35px;
+  position: relative;
+
+  background: rgb(0, 0, 0, 0.5s);
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 90%;
+  padding: 30px;
+  box-shadow: 0 15px 25px rgb(0 ,0 ,0 ,.6);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  grid-column: 2;
+  margin: 0 auto;
+  height: 500px;
+min-width: 600px;
+  }
+  
+  
+  
+  .master1 ul{
+    list-style: none;
+   text-decoration: none;
+   position: relative;
+   display: flex;
+   text-align: center;
+   position: relative;
+
+  
+  }
+  
+ .master1 ul li{
+    top: 15px;
+    margin: 0 auto;
+    position: relative;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  
+  }
+  
+  /* Classe Mestre*/
+  
+  .mestre{
+  
+    position: relative;
+  right: 12.2%;
+  }

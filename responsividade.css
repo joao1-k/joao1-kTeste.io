@@ -1,0 +1,14 @@
+@media(max-width:1350px){
+  .form{
+display: flex;
+    
+    }.master1{
+        display: none;
+    }.form .master{
+position: relative;
+        margin: 0 auto;
+left: 50%;
+top: 50%;
+transform: translate(-50%);
+    }
+}
