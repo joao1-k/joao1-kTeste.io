@@ -36,7 +36,7 @@ if(nameValue === "" ||  CPFValue === "" || dateValue === "" || pesoValue === "" 
 const li = document.createElement('li')
 
   li.classList = "item";
-  li.innerHTML = `Nome:${nameValue}<br />CPF:${CPFValue}<br />Data:${dateValue}<br />Peso:${pesoValue}<br /> Altura:${AlturaValue}<br /> Estado:${EstadoValue}<br /> Cadastro:${clienteValue}`
+  li.innerHTML = `Nome: ${nameValue}<br />CPF: ${CPFValue}<br />Data: ${dateValue}<br />Peso: ${pesoValue}<br /> Altura: ${AlturaValue}<br /> Estado: ${EstadoValue}<br /> Cadastro: ${clienteValue}`
 
 
 items.appendChild(li);
